@@ -125,6 +125,19 @@ body {
     transition: 0.3s;
 }
 
+.setting-link i:first-child { 
+    margin-right: 25px; 
+    color: #000; 
+    width: 25px; 
+    font-size: 18px;
+}
+
+.setting-link span { 
+    flex: 1; 
+    font-size: 16px; 
+    color: #333;
+}
+
 .setting-link:hover { background-color: #f9f9f9; }
 
 .logout-btn {
@@ -151,7 +164,7 @@ body {
     background: #f8f9fa;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 200px;
     padding: 15px;
     border-top: 1px solid #eee;
 }
@@ -178,4 +191,13 @@ body {
         grid-column: 1 / -1;
     }
     .bottom-nav { gap: 20px; }
+}
+
+.setting-link {
+    display: flex;
+    align-items: center;
+    padding: 18px 10px; /* زيادة المساحة الرأسية لكل عنصر */
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: 0.3s;
 }
