@@ -200,4 +200,12 @@ body {
     border-bottom: 1px solid #eee;
     cursor: pointer;
     transition: 0.3s;
+}  
+
+.setting-link i:first-child { 
+    margin-right: 25px !important; 
+    color: #000 !important; 
+}
+.bottom-nav {
+    gap: 80px !important; 
 }
